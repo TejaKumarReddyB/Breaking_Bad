@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Courgette&family=Inconsolata:wght@500&family=Indie+Flower&family=Josefin+Sans:ital,wght@1,300&family=Lobster&family=Montserrat:ital,wght@0,200;1,400&family=Sansita+Swashed:wght@300&family=Square+Peg&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,13 +8,11 @@
 
 html,
 body {
-  background: rgb(0, 0, 0) url('img/bg.jpg') no-repeat center center/cover;
+  background: rgb(0, 0, 0) url("img/bg.jpg") no-repeat center center/cover;
   height: 400vh;
   color: #fff;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 10px;
- 
-  
 }
 
 a {
@@ -53,10 +53,9 @@ header img {
 
 .search {
   height: 100px;
- 
 }
 
-input[type='text'] {
+input[type="text"] {
   display: block;
   padding: 10px;
   font-size: 20px;
@@ -119,6 +118,12 @@ input[type='text'] {
   color: rgb(0, 240, 0);
   padding: 20px;
   transform: rotateY(180deg);
+  font-family: Arima;
+  font-size: 12px;
+}
+
+h2 {
+  color: white;
 }
 
 .card li {
